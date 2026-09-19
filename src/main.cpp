@@ -87,25 +87,27 @@ void setup()
     if (!gfx->begin())
     {
         Serial.println("DISPLAY INIT FAILED");
+
         while (true)
             delay(1000);
     }
 
     Serial.println("DISPLAY INIT PASS");
 
-    showColour(RED,   "RED");
-    showColour(GREEN, "GREEN");
-    showColour(BLUE,  "BLUE");
-    showColour(CYAN,  "CYAN");
-    showColour(YELLOW,"YELLOW");
+    showColour(RED,    "RED");
+    showColour(GREEN,  "GREEN");
+    showColour(BLUE,   "BLUE");
+    showColour(CYAN,   "CYAN");
+    showColour(YELLOW, "YELLOW");
 
     drawPassScreen();
 
-    Serial.println("FORGEUI ST7789 240x240 PHYSICAL TEST READY");
+    Serial.println(
+        "FORGEUI ST7789 240x240 PHYSICAL TEST READY"
+    );
 }
 
 void loop()
 {
-    // Hold final physical-pass screen.
     delay(1000);
 }
