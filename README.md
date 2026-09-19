@@ -16,6 +16,14 @@ Physically tested on **19 September 2026**.
 - PlatformIO build: **PASS**.
 - Firmware flash: **PASS**.
 
+## Physical Photographic Evidence
+
+The daylight full-screen colour-fill photographs below provide additional physical evidence of complete 240×240 viewport operation, panel-edge coverage, and correct output across the display. They show no observed cropping or offset.
+
+![Full-screen RED fill showing the complete ST7789 panel](splash1-st7789-240x240-square.png)
+
+![Full-screen BLUE fill showing the complete ST7789 panel](splash7-st7789-240x240-square.png)
+
 ## Hardware identification
 
 - Board: ESP32-S3 DevKitC-1
